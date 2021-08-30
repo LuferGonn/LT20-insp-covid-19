@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-bundle.min.js"></script>
+  <title>Anychart.Js network graph</title>
+</head>
+<body>
+  <figure class="figure">
+    <div id="container">
+      <div class="loading"></div>
+    </div>
+  </figure>
+  <script type="text/javascript">
+    const getData = () => {
+      return fetch("https://lufergonn.github.io/lufergonn-pages/twrt-graphnw-who/data/arychart.json")
+        .then(response => response.json())
+        .catch(() => 'error');
+    };
+
+    window.addEventListener("load", () => {
+      getData().then(response => {
+        document.getElementById('container').removeChild(
+          document.querySelector('.loading')
+        );
+
+        if (response !== "error") {
+          anychart.onDocumentReady(function () {
+            response.nodes = response.nodes.map(e => { return {'id': e.id} });
+            let chart = anychart.graph(response);
+            chart.interactivity().zoomOnMouseWheel(true);
+            chart.title('');
+            chart.container('container');
+            chart.draw();
+          });
+        } else {
+          container.innerHTML = "Error";
+        }
+      });
+    });
+  </script>
+</body>
+</html>
