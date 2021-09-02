@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Twitter network graph</title>
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-bundle.min.js"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="columns is-multiline">
+            <div class="column is-one-quarter form">
+                <div class="field">
+                    <label class="label">Type</label>
+                    <div class="control">
+                        <div class="select is-info">
+                            <select name="type">
+                                <option value="user" selected>User</option>
+                                <option value="tweet">Tweet</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                  <label class="label">Level</label>
+                  <div class="control">
+                      <div class="select is-info">
+                          <select name="level">
+                            <option value="1" selected>Level 1</option>
+                            <option value="2">Level 2</option>
+                            <option value="3" disabled>Level 3</option>
+                          </select>
+                      </div>
+                  </div>
+                </div>
+                <div class="field">
+                    <label class="label">User/Tweet</label>
+                    <div class="control">
+                        <input id="value" class="input is-info" type="text" placeholder="">
+                    </div>
+                    <p class="help is-info">Username / Tweet id</p>
+                </div>
+                <p><a id="more-option">Optional parameters <span active="0" class="has-text-weight-bold">+</span></a></p><br/>
+                <div id="more-option-content" class="is-hidden">
+                    <div class="field">
+                        <label class="label">Exact text</label>
+                        <div class="control">
+                            <input id="ctexact" class="input is-info" type="text" placeholder="">
+                        </div>
+                        <p class="help is-info">Optional</p>
+                    </div>
+                    <div class="field">
+                        <label class="label">Mention (user)</label>
+                        <div class="control">
+                            <input id="mention" class="input is-info" type="text" placeholder="">
+                        </div>
+                        <p class="help is-info">Optional</p>
+                    </div>
+                    <div class="field">
+                        <label class="label">Hashtag</label>
+                        <div class="control">
+                            <input id="hashtag" class="input is-info" type="text" placeholder="">
+                        </div>
+                        <p class="help is-info">Optional</p>
+                    </div>
+                </div>
+                <div class="field is-grouped is-grouped-centered">
+                  <div class="control">
+                      <button id="generate" class="button is-info">Create</button>
+                  </div>
+                </div>
+                <article class="message is-info">
+                    <div class="message-body">
+                        
+                    </div>
+                </article>
+            </div>
+            <div class="column">
+                <div class="header is-flex is-align-items-center is-flex-direction-column">
+                    <figure class="image is-64x64">
+                        <img class="is-rounded" alt="logo tweet/Username" src="https://logos-marcas.com/wp-content/uploads/2020/04/Twitter-Logo.png">
+                    </figure>
+                    <p class="has-text-weight-bold">
+                        <span level="---" value="---">---</span>
+                    </p>
+                </div>
+                <figure class="figure">
+                    <div id="graphnw"></div>
+                </figure>
+                <pre class="log"></pre>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
