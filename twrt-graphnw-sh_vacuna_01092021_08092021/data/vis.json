@@ -1,0 +1,142 @@
+{
+  "options": {
+    "nodes": {
+      "shape": "dot",
+      "scaling": {
+        "min": 10,
+        "max": 30
+      },
+      "font": {
+        "size": 12,
+        "face": "Tahoma"
+      }
+    },
+    "edges": {
+      "width": 0.15,
+      "color": { "inherit": "from" },
+      "smooth": {
+        "type": "continuous"
+      }
+    },
+    "physics": {
+      "stabilization": false,
+      "barnesHut": {
+        "gravitationalConstant": -80000,
+        "springConstant": 0.001,
+        "springLength": 200
+      }
+    },
+    "interaction": {
+      "tooltipDelay": 200,
+      "hideEdgesOnDrag": true
+    }
+  },
+  "options2": {
+    "nodes": {
+      "shape": "dot",
+      "size": 16
+    },
+    "physics": {
+      "forceAtlas2Based": {
+        "gravitationalConstant": -26,
+        "centralGravity": 0.005,
+        "springLength": 230,
+        "springConstant": 0.18
+      },
+      "maxVelocity": 146,
+      "solver": "forceAtlas2Based",
+      "timestep": 0.35,
+      "stabilization": { "iterations": 150 }
+    }
+  },
+  "data": {
+    "nodes": [
+      { "id": "1435193008350060544", "label": "1435193008350060544", "title": "LajousMartin --> 1435193008350060544", "value": 30, "group": 1 },
+      { "id": "1433962878097235968", "label": "1433962878097235968", "title": "nickemus --> 1433962878097235968", "value": 30, "group": 1 },
+      { "id": "1433948474551193600", "label": "1433948474551193600", "title": "MiriamDvila10 --> 1433948474551193600", "value": 30, "group": 1 },
+      { "id": "1433941889309368327", "label": "1433941889309368327", "title": "AuroHdezV --> 1433941889309368327", "value": 30, "group": 1 },
+      { "id": "1433939675555708935", "label": "1433939675555708935", "title": "Artemio59355002 --> 1433939675555708935", "value": 30, "group": 1 },
+      { "id": "1433938476320313348", "label": "1433938476320313348", "title": "martinez5210 --> 1433938476320313348", "value": 30, "group": 1 },
+      { "id": "1433937422702809090", "label": "1433937422702809090", "title": "martinez5210 --> 1433937422702809090", "value": 30, "group": 1 },
+      { "id": "1433935400377065474", "label": "1433935400377065474", "title": "heba_paty --> 1433935400377065474", "value": 30, "group": 1 },
+      { "id": "1433934863527206914", "label": "1433934863527206914", "title": "NuviaMezquitic --> 1433934863527206914", "value": 30, "group": 1 },
+      { "id": "1433933660680441857", "label": "1433933660680441857", "title": "EsthephanyJesus --> 1433933660680441857", "value": 30, "group": 1 },
+      { "id": "1433932892628004871", "label": "1433932892628004871", "title": "JuanaNuno18 --> 1433932892628004871", "value": 30, "group": 1 },
+      { "id": "1433932777385234439", "label": "1433932777385234439", "title": "VeroMDiaz07 --> 1433932777385234439", "value": 30, "group": 1 },
+      { "id": "1433932472262303746", "label": "1433932472262303746", "title": "Minerva55581908 --> 1433932472262303746", "value": 30, "group": 1 },
+      { "id": "1433931715861524483", "label": "1433931715861524483", "title": "ramayvi --> 1433931715861524483", "value": 30, "group": 1 },
+      { "id": "1433931450227720192", "label": "1433931450227720192", "title": "DanielGtzCortes --> 1433931450227720192", "value": 30, "group": 1 },
+      { "id": "1433930615657689090", "label": "1433930615657689090", "title": "DanielGtzCortes --> 1433930615657689090", "value": 30, "group": 1 },
+      { "id": "1433929371702763522", "label": "1433929371702763522", "title": "EspinoMartha1 --> 1433929371702763522", "value": 30, "group": 1 },
+      { "id": "1433928606971875328", "label": "1433928606971875328", "title": "CaroMorte --> 1433928606971875328", "value": 30, "group": 1 },
+      { "id": "1433927701400899588", "label": "1433927701400899588", "title": "BazaanLopez --> 1433927701400899588", "value": 30, "group": 1 },
+      { "id": "1433927554306543616", "label": "1433927554306543616", "title": "GDannaDG --> 1433927554306543616", "value": 30, "group": 1 },
+      { "id": "1433925335876349954", "label": "1433925335876349954", "title": "Pablo_Moo_ --> 1433925335876349954", "value": 30, "group": 1 },
+      { "id": "1433923426595520516", "label": "1433923426595520516", "title": "FrankSnake3 --> 1433923426595520516", "value": 30, "group": 1 },
+      { "id": "1433922860775469056", "label": "1433922860775469056", "title": "UrielAzael4 --> 1433922860775469056", "value": 30, "group": 1 },
+      { "id": "MrBalki", "label": "MrBalki", "title": "MrBalki", "value": 22, "group": 2 },
+      { "id": "Damaris27447200", "label": "Damaris27447200", "title": "Damaris27447200", "value": 22, "group": 2 },
+      { "id": "Nancygl71127375", "label": "Nancygl71127375", "title": "Nancygl71127375", "value": 22, "group": 2 },
+      { "id": "Omarguitar3", "label": "Omarguitar3", "title": "Omarguitar3", "value": 22, "group": 2 },
+      { "id": "claudianutre", "label": "claudianutre", "title": "claudianutre", "value": 22, "group": 2 },
+      { "id": "BrijidaVera", "label": "BrijidaVera", "title": "BrijidaVera", "value": 22, "group": 2 },
+      { "id": "GuadaluEBG", "label": "GuadaluEBG", "title": "GuadaluEBG", "value": 22, "group": 2 },
+      { "id": "FnerHidalgo", "label": "FnerHidalgo", "title": "FnerHidalgo", "value": 22, "group": 2 },
+      { "id": "MoisesDJG", "label": "MoisesDJG", "title": "MoisesDJG", "value": 22, "group": 2 },
+      { "id": "ArturoRamrezGu3", "label": "ArturoRamrezGu3", "title": "ArturoRamrezGu3", "value": 22, "group": 2 },
+      { "id": "HernndezReyesD3", "label": "HernndezReyesD3", "title": "HernndezReyesD3", "value": 22, "group": 2 },
+      { "id": "BetsabFigueroa", "label": "BetsabFigueroa", "title": "BetsabFigueroa", "value": 22, "group": 2 },
+      { "id": "XUNMEXICOUNIDO", "label": "XUNMEXICOUNIDO", "title": "XUNMEXICOUNIDO", "value": 22, "group": 2 },
+      { "id": "g_elvirita", "label": "g_elvirita", "title": "g_elvirita", "value": 22, "group": 2 },
+      { "id": "jesuscardez", "label": "jesuscardez", "title": "jesuscardez", "value": 22, "group": 2 },
+      { "id": "yaelicius", "label": "yaelicius", "title": "yaelicius", "value": 22, "group": 2 },
+      { "id": "Fernandsenberg", "label": "Fernandsenberg", "title": "Fernandsenberg", "value": 22, "group": 2 },
+      { "id": "Anykely0807", "label": "Anykely0807", "title": "Anykely0807", "value": 22, "group": 2 },
+      { "id": "irisnegro2020", "label": "irisnegro2020", "title": "irisnegro2020", "value": 22, "group": 2 },
+      { "id": "TamaraVei", "label": "TamaraVei", "title": "TamaraVei", "value": 22, "group": 2 },
+      { "id": "toribiologia", "label": "toribiologia", "title": "toribiologia", "value": 22, "group": 2 },
+      { "id": "MatildeVelsque1", "label": "MatildeVelsque1", "title": "MatildeVelsque1", "value": 22, "group": 2 },
+      { "id": "IsabelH05973066", "label": "IsabelH05973066", "title": "IsabelH05973066", "value": 22, "group": 2 },
+      { "id": "Gera_S3X0", "label": "Gera_S3X0", "title": "Gera_S3X0", "value": 22, "group": 2 },
+      { "id": "ivonne_vasco", "label": "ivonne_vasco", "title": "ivonne_vasco", "value": 22, "group": 2 },
+      { "id": "Filiber78498528", "label": "Filiber78498528", "title": "Filiber78498528", "value": 22, "group": 2 },
+      { "id": "DanielGtzCortes", "label": "DanielGtzCortes", "title": "DanielGtzCortes", "value": 22, "group": 2 },
+      { "id": "LauraMe35151469", "label": "LauraMe35151469", "title": "LauraMe35151469", "value": 22, "group": 2 }
+    ],
+    "edges": [
+      { "from": "1433935400377065474", "to": "MoisesDJG" },
+      { "from": "1433931450227720192", "to": "DanielGtzCortes" },
+      { "from": "1433938476320313348", "to": "IsabelH05973066" },
+      { "from": "1433962878097235968", "to": "MatildeVelsque1" },
+      { "from": "1433932472262303746", "to": "ivonne_vasco" },
+      { "from": "1433930615657689090", "to": "DanielGtzCortes" },
+      { "from": "1433962878097235968", "to": "Damaris27447200" },
+      { "from": "1433923426595520516", "to": "HernndezReyesD3" },
+      { "from": "1435193008350060544", "to": "claudianutre" },
+      { "from": "1433937422702809090", "to": "g_elvirita" },
+      { "from": "1433948474551193600", "to": "Fernandsenberg" },
+      { "from": "1433928606971875328", "to": "Nancygl71127375" },
+      { "from": "1433925335876349954", "to": "toribiologia" },
+      { "from": "1433932777385234439", "to": "GuadaluEBG" },
+      { "from": "1433927554306543616", "to": "Nancygl71127375" },
+      { "from": "1433928606971875328", "to": "MrBalki" },
+      { "from": "1433933660680441857", "to": "ArturoRamrezGu3" },
+      { "from": "1433948474551193600", "to": "TamaraVei" },
+      { "from": "1433929371702763522", "to": "LauraMe35151469" },
+      { "from": "1433923426595520516", "to": "Gera_S3X0" },
+      { "from": "1433941889309368327", "to": "Anykely0807" },
+      { "from": "1433925335876349954", "to": "jesuscardez" },
+      { "from": "1433933660680441857", "to": "XUNMEXICOUNIDO" },
+      { "from": "1433941889309368327", "to": "FnerHidalgo" },
+      { "from": "1433934863527206914", "to": "ArturoRamrezGu3" },
+      { "from": "1433927701400899588", "to": "Nancygl71127375" },
+      { "from": "1433939675555708935", "to": "ArturoRamrezGu3" },
+      { "from": "1433931715861524483", "to": "BetsabFigueroa" },
+      { "from": "1435193008350060544", "to": "irisnegro2020" },
+      { "from": "1433925335876349954", "to": "Filiber78498528" },
+      { "from": "1433922860775469056", "to": "yaelicius" },
+      { "from": "1433933660680441857", "to": "Omarguitar3" },
+      { "from": "1433932892628004871", "to": "BrijidaVera" }
+    ]
+  }
+}
