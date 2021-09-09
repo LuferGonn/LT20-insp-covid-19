@@ -28,6 +28,12 @@
         if (response !== "error") {
           let network;
           network = new vis.Network(container, response.data, response.options2);
+
+          network.on("doubleClick", e => {
+            if (e.nodes.length == 1) {
+              if (!isNaN(e.nodes[0])) window.open("https://twitter.com/user/status/" + e.nodes[0], '_blank');
+            }
+          });
         } else {
           container.innerHTML = "Error";
         }
